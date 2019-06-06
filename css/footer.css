@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    border-top: 1px dashed silver;
+    background: #FFEBCD;
+    margin: 20px 0;
+    padding: 10px 0;
+  }
+  .footer p {
+    text-align: center;
+    color: #212529;
+  }
+}

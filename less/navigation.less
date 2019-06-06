@@ -1,1 +1,20 @@
-// Navigation Styles here
+@import "variables.less";
+
+
+// For mobile
+@media (max-width: @mobile-width) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        div:first-child {
+            text-align: center;
+        }
+
+        div:last-child {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import "variables.less";
+@import "mixins.less";
+
+// For mobile
+@media (max-width: @mobile-width) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img {
+           .img-mixin(7px);
+        }
+
+        .inverse-content {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .content-pick {
+            padding: 0 20px ;
+            .btn {
+               .btn-mixin(@eastern-blue,white, 13px, 5px);
+            }
+        }
+    }
+}

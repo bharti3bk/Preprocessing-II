@@ -1,1 +1,16 @@
 // Mixins in here
+
+.img-mixin(@radius) {
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: @radius;
+}
+
+.btn-mixin(@background, @color, @radius, @padding) {
+    background-color: @background;
+    border-radius: @radius;
+    color: @color;
+    text-align: center;
+    padding: @padding;
+}

@@ -1,12 +1,18 @@
-.footer {
-  width: 100%;
-  border-top: 2px dashed silver;
-  background: @sandy-beach;
-  
-  p {
-    text-align: center;
-    color: @font-color;
-    font-size: 1.6rem;
-    padding: 20px;
+
+@import "variables.less";
+
+// For mobile
+@media (max-width: @mobile-width) {
+  .footer {
+    width: 100%;
+    border-top: 1px dashed silver;
+    background: @sandy-beach;
+    margin: 20px 0;
+    padding: 10px 0;
+    
+    p {
+      text-align: center;
+      color: @font-color;
+    }
   }
 }

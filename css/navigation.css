@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  nav div:first-child {
+    text-align: center;
+  }
+  nav div:last-child {
+    display: flex;
+    justify-content: space-around;
+  }
+}
