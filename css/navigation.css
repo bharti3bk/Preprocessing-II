@@ -1,3 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav div:first-child {
+  width: 60%;
+}
+nav div:last-child {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 500px) {
   nav {
     display: flex;
