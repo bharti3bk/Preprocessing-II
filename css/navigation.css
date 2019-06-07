@@ -1,0 +1,29 @@
+@media (min-width: 501px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div:first-child {
+    width: 60%;
+  }
+  nav div:last-child {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  nav div:first-child {
+    text-align: center;
+  }
+  nav div:last-child {
+    display: flex;
+    justify-content: space-around;
+  }
+}
